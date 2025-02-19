@@ -48,7 +48,7 @@ void inputMarks(int marks[][max_subjects],int studentCount, int subjectCount){
     printf("\nEnter marks: ");
     for(int i=0; i<studentCount; i++){
         printf("\nStudent %d: ",i+1);
-        for(int j=0; j<subjectCount;j++);{
+        for(int j=0; j<subjectCount;j++){
             scanf("%d",&marks[i][j]);
         }
     }
