@@ -44,6 +44,7 @@ struct Book_t {
 };*/
 
 #include<stdio.h>
+#define MAX_SIZE 1000
 struct Fiction_t { //383
     char title[250];
     char author[125];
@@ -72,7 +73,7 @@ struct Book_t {
 
 typedef struct Book_t Book;
 
-Book books[1000];
+Book books[MAX_SIZE];
 int bookCount;
 
 void readBooks();
