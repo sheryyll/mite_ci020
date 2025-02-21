@@ -4,13 +4,13 @@ Your task is to remove all the duplicates and find the sorted increasing array o
 distinct elements consisting of all distinct elements present in A.\
 
 Input Format
-	*The first line of input will contain a single integer T, denoting the number of 		test cases.
+	*The first line of input will contain a single integer T, denoting the number of test cases.
 	*The first line of each test case contains an integer N - the length of the array A.
 	*The second line of each test case contains N space-separated integers A1,A2,…,An.
 Output Format
 For each test case, output two lines:
 	*The first line should contain a single integer M - the size of the array.
-	*The second line should contain M space-separated integers denoting the elements of 		the array.*/
+	*The second line should contain M space-separated integers denoting the elements of the array.*/
 #include <stdio.h>
 int logic(int n,int a[]);
 void printingsorted(int a[],int sorted);
